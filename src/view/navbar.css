@@ -1,0 +1,353 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    z-index: 3;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpo4uUZZNzn6sV1_LDQ8IQgcjGEdAkX6-7fQ&usqp=CAU");
+    background-size: 100% 10vh;
+}
+
+a {
+    color: black;
+    font-size: large;
+}
+
+.pages {
+    align-items: center;
+    width: 30%;
+    min-width: 96px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.pages p {
+    width: 100%;
+    font-size: 20px !important;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link :hover {
+    color: rgb(85, 130, 36);
+}
+
+.Uicon {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.Uicon p {
+    width: 100%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    min-width: 50% "";
+    font-size: 20px !important;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Uicon img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    zoom: 1.2;
+}
+
+.Uicon img:hover {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    zoom: 1.2;
+    transform: scale(1.01);
+}
+
+.inp {
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    min-width: 120px;
+    height: 100%;
+}
+
+.inp .input {
+    width: 90%;
+    height: 45%;
+}
+
+.inp input {
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px orange; */
+}
+
+.inp button {
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    width: 15%;
+    height: 36px;
+    border-left: none;
+    border: 2px orange;
+
+}
+
+.inp img {
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.containerbtn {
+    top: 75px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    /* border: 2px ridge blue; */
+}
+
+.btn {
+    font-size: 100%;
+    background-color: #ffffff;
+    top: 100px;
+    right: 00px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    box-shadow:
+        rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media (max-width:400px) {
+    .containerbtn {
+        top: 60px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 65px;
+        border: 2px ridge rgb(0, 0, 0);
+
+    }
+
+    .btn {
+        font-size: 10px;
+        /* background-color: #ff0000; */
+        right: 00px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        width: 320px;
+        height: 60px;
+        box-shadow:
+            rgba(0, 0, 0, 0.16) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .btn button img {
+        object-fit: contain !important;
+        width: 20px;
+        height: 30px;
+        border-radius: 20px;
+    }
+
+    .btn button {
+        border-radius: 300px;
+        width: 40px;
+        height: 30px;
+    }
+
+    .btn .booksbtn {
+        margin-left: -10px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn .booksbtn p {
+        font-size: 9px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn .tvbtn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn .tvbtn p {
+        font-size: 9px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn .watchbtn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn .watchbtn footer {
+        font-size: 9px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn .airbtn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn .airbtn footer {
+        font-size: 9px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 320px;
+        height: 60px;
+        box-shadow:
+            rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+            rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        z-index: 3;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpo4uUZZNzn6sV1_LDQ8IQgcjGEdAkX6-7fQ&usqp=CAU");
+        background-size: 100% 10vh;
+    }
+
+    .Uicon p {
+        width: 100%;
+        font-size: 13px !important;
+        font-weight: 700;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Uicon {
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+    }
+
+    .Uicon img {
+        border-radius: 50px;
+        width: 25px;
+        height: 25px;
+        /* zoom: 1.0002; */
+    }
+
+    .inp {
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 40%;
+        height: 100%;
+    }
+
+    .inp button {
+        border: 2px solid rgb(68, 67, 67);
+        border-radius: 0px 5px 5px 0px;
+        width: 20%;
+        height: 24px;
+        border-left: none;
+    }
+
+    .inp .input {
+        width: 75%;
+        height: 40%;
+        font-size: 10px;
+    }
+
+    a {
+        color: black;
+        font-size: 10px;
+    }
+
+    .pages {
+        padding: 15px;
+        align-items: center;
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pages p {
+        width: auto;
+        height: auto;
+        font-size: 12px !important;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .pages .home {
+        border: none;
+        margin-left: 5px;
+        width: auto;
+    }
+
+    .pages .next {
+        border: none;
+        margin-left: -30px;
+        width: auto;
+    }
+}
+
+.btn button img {
+    object-fit: contain !important;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn button {
+    border: none;
+    border-radius: 300px;
+    width: 4%;
+    min-width: auto;
+    height: 47px;
+}
+
+.btn button :hover {
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+}
+
+.btn :hover {
+    color: green;
+}

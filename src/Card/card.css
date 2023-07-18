@@ -1,0 +1,206 @@
+.Card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(189, 199, 213);
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+
+}
+
+.p {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+    width: 70%;
+}
+
+.p :hover {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+    width: 70%;
+}
+
+.text {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 14px;
+    width: 85%;
+    height: 40px;
+
+}
+
+.text :hover {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    width: 85%;
+    height: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
+
+
+
+.cost {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 17px;
+    width: 70%;
+}
+
+.home .button button {
+    background-color: rgb(208, 221, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: 35px;
+    width: 100px;
+    height: 30px;
+    border-left: 1px ridge black;
+    border-right: 1px ridge rgb(255, 0, 0);
+    border-bottom: 1px ridge rgb(255, 0, 0);
+    border-top: 1px ridge black;
+}
+
+.home .button button:hover {
+    background-color: rgb(208, 221, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: 35px;
+    width: 100px;
+    height: 30px;
+    border-right: 1px ridge black;
+    border-left: 1px ridge rgb(255, 0, 0);
+    border-top: 1px ridge rgb(255, 0, 0);
+    border-bottom: 1px ridge black;
+}
+
+
+
+.image {
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+    /* border: 2px ridge black; */
+
+}
+
+.cardinit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.image img {
+    margin-left: 17px;
+    border-left: 1px ridge black;
+    border-right: 1px ridge rgb(255, 0, 0);
+    border-bottom: 1px ridge rgb(255, 0, 0);
+    border-top: 1px ridge black;
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+}
+
+.image img:hover {
+    margin-left: 17px;
+    border-left: 1px ridge black;
+    border-right: 1px ridge rgb(255, 0, 0);
+    border-bottom: 1px ridge rgb(255, 0, 0);
+    border-top: 1px ridge black;
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+    transform: scale(1.011);
+    transition: all 0.1s linear;
+}
+
+.heart-like-button {
+    margin-right: -30px;
+    margin-top: 30px;
+    position: relative;
+    width: 45px;
+    height: 40px;
+}
+
+.baricon {
+    margin-right: 0px;
+    margin-top: 80px;
+    width: 35px;
+    height: 40px;
+}
+
+.baricon img {
+    width: 25px;
+    height: 25px;
+}
+
+.baricon :hover {
+    zoom: 1.01;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+
+.heart-like-button:before {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    width: 20px;
+    height: 32px;
+    border-radius: 40px 40px 0 0;
+    background-color: #ff0048;
+    content: "";
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.heart-like-button:hover:before {
+    /* border: 2px ridge black; */
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    width: 20px;
+    height: 32px;
+    border-radius: 40px 40px 0 0;
+    background-color: #000000;
+    content: "";
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.heart-like-button:after {
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    width: 20px;
+    height: 32px;
+    border-radius: 40px 40px 0 0;
+    background-color: #ff0048;
+    content: "";
+}
+
+.heart-like-button:hover:after {
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    width: 20px;
+    height: 32px;
+    border-radius: 40px 40px 0 0;
+    background-color: #000000;
+    content: "";
+}

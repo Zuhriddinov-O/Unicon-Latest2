@@ -1,0 +1,825 @@
+export const allData = [
+    {
+        id: 0,
+        brand: "Primier Model: 32PRM650",
+        name: "Premier 32PRM650 HD Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/f6f026693c994810ddbe0671dcbbffc92021021311474377533BCfP3pZwop.jpg.webp",
+        price: "1199 000 uzs",
+        month: "121 000 uzs",
+        kond: "1300 000 uzs",
+        feedback: "3 Comments",
+    },
+    {
+        id: 1,
+        brand: "Premier Model: 32PRM700",
+        name: "Premier 32PRM700 HD Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/83878c91171338902e0fe0fb97a8c47a20201114150949918546gFxjZwb1R.jpeg.webp",
+        month: "150 000 uzs",
+        kond: "1420 000 uzs",
+        price: "1299 000 uzs",
+        feedback: "14 Comments",
+    },
+    {
+        id: 2,
+        brand: "Ziffler Model: 43A700F",
+        name: "ZIFFLER 43A700F FHD Android TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/c9f0f895fb98ab9159f51fd0297e236d2022052117231886362wX6UEUrMzx.png.webp",
+        kond: "4000 000 uzs",
+        month: "350 000 uzs",
+        price: "3 319 000 uzs",
+        feedback: "3 Comments",
+    },
+    {
+        id: 3,
+        brand: "Rosso Model: 43R92F",
+        name: "Rosso 43R92F Full HD Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/e45ee7ce7e88149af8dd32b27f9512ce2022071810103433901XfqRVvQaVK.jpg.webp",
+        month: "250 000 uzs",
+        kond: "2 820 000 uzs",
+        price: "2 399 000 uzs",
+        feedback: "3 Comments",
+    },
+    {
+        id: 4,
+        brand: "Premier Model: 50PRM750USV",
+        name: "Premier 50PRM750USV UHD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/f1c1592588411002af340cbaedd6fc332022031810254286382bSjwLh6oWJ.jpg.webp",
+        kond: "5 000 000 uzs",
+        month: "470 000 uzs",
+        price: "4 299 000 uzs",
+        feedback: "1 Comments",
+    },
+    {
+        id: 5,
+        brand: "Ziffler Model: 55A900U",
+        name: "ZIFFLER 55A900U 4K FHD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/dc5c7986daef50c1e02ab09b442ee34f2022011010121379661n5Rz52JDx7.png.webp",
+        kond: "6 600 000 uzs",
+        month: "600 000 uzs",
+        price: "5 749 000 uzs",
+        feedback: "7 Comments",
+    },
+    {
+        id: 6,
+        brand: "Premier Model: 50PRM750USV",
+        name: "Premier 50PRM750USV UHD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/f1c1592588411002af340cbaedd6fc332022031810254286382bSjwLh6oWJ.jpg.webp",
+        kond: "6 300 000 uzs",
+        month: "550 000 uzs",
+        price: "4 999 000 uzs",
+        feedback: "10 Comments",
+    },
+    {
+        id: 7,
+        brand: "Samsung Model: UE43N5000AU",
+        name: "Samsung UE43N5000AU Full HD Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/5e15c005213cb.jpg.webp",
+        month: "420 000 uzs",
+        kond: "5 000 000 uzs",
+        price: "4 118 000 uzs",
+        feedback: "20 Comments",
+    },
+    {
+        id: 8,
+        brand: "Rosso Model: 50RU92",
+        name: "Rosso 50RU92 4K Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2022101908453576747OFg3gqlU3p.jpg.webp",
+        month: "470 000 uzs",
+        kond: "5 000 000 uzs",
+        price: "4 499 000 uzs",
+        feedback: "0 Comments",
+    },
+    {
+        id: 9,
+        brand: "Samsung Model: UE49N5500AU",
+        name: "Samsung UE49N5500AU Full HD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/5e15c15012944.jpg.webp",
+        month: "680 000 uzs",
+        kond: "6 900 000 uzs",
+        price: "6 310 400 uzs",
+        feedback: "0 Comments",
+    },
+    {
+        id: 10,
+        brand: "Premier Model: 50PRM800USV",
+        name: "Premier 50PRM800USV UHD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/1c395a8dce135849bd73c6dba3b548092022031810353611949v1BzRRVurW.jpg.webp",
+        month: "500 000 uzs",
+        kond: "6100 000 uzs",
+        price: "4 599 000 uzs",
+        feedback: "1 Comments",
+    },
+    {
+        id: 11,
+        brand: "Artel Model: A32KH5000",
+        name: "Artel A32KH5000 HD TV Televison",
+        image:
+
+            "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b20230119115241664671EZ1Uwdgkl.jpg.webp",
+        month: "110 000 uzs",
+        kond: "2 000 000 uzs",
+        price: "1 348 800 uzs",
+        feedback: "0 Comments",
+    },
+    {
+        id: 12,
+        brand: "Artel Model: UA32H4101",
+        name: "Artel UA32H4101 LED TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/6512bd43d9caa6e02c990b0a82652dca20230119113554628566LzL4AE8hN.jpg",
+        month: "121 000 uzs",
+        kond: "1 900 000 uzs",
+        price: "1 389 000 uzs",
+        feedback: "1 Comments",
+    },
+    {
+        id: 13,
+        brand: "Sony Model: KD-65XE9305",
+        name: "Sony KD-65XE9305 4K UHD Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/5e15bcfe25c2c.jpg.webp",
+        kond: "22 039 000 uzs",
+        month: "1 500 uzs",
+        price: "13 799 000 uzs",
+        feedback: "17 Comments",
+    },
+    {
+        id: 14,
+        brand: "Samsung Model: UE32T4500AU",
+        name: "Samsung UE32T4500AU Smart TV Televison",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2021090411141396893S5HA4KyEMc.jpg.webp",
+        kond: "3 700 000 uzs",
+        month: "310 000 uzs",
+        price: "2 999 000 uzs",
+        feedback: "2 Comments",
+    },
+    {
+        id: 15,
+        brand: "Huawei Model: Huawei Band 7",
+        name: "HUAWEI Band 7 (Graphite Black) smart-bracelet (promo)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/46ba9f2a6976570b0353203ec447421720220710155757614825n4XGKU6uP.png.webp",
+        price: "589 000 uzs",
+        kond: "689 000 uzs",
+        month: "67 000 uzs ",
+        feedback: "9 Comments",
+    },
+    {
+        id: 16,
+        brand: "Xiaomi",
+        name: "Xiaomi Redmi Note 11 Pro 8/128GB grey Smartphone",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/c32d9bf27a3da7ec8163957080c8628e20230503112555432852eYWU4gItW.png.webp",
+        kond: "3 600 000 uzs",
+        month: "387 000 uzs ",
+        price: "3 459 000 uzs",
+        feedback: "76 Comments",
+    },
+    {
+        id: 17,
+        brand: "Borofone Model:BW03",
+        name: "Borofone Airpods Pro BW03 wireless earphone",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/ef50c335cca9f340bde656363ebd02fd2022090216410625972gnxLWxdefi.png.webp",
+        price: "189 000 uzs",
+        month: "20 000 uzs ",
+        kond: "250 000 uzs",
+        feedback: "10 Comments",
+    },
+    {
+        id: 18,
+        brand: "Smart Model: BML",
+        name: "BML Ultra Max smart Watch",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/4bcd9694cedcd9122894d42fec3cc48e2022121314590221349E2vWziv6kf.jpeg.webp",
+        kond: "400 000 uzs",
+        month: "35 000 uzs ",
+        price: "339 000 uzs",
+        feedback: "6 Comments",
+    },
+    {
+        id: 19,
+        brand: "DT NO.1 Model: DT8 Ultra Plus",
+        name: "DT NO.1 DT8 Ultra Plus Black smart-Watch",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/7c92cf1eee8d99cc85f8355a3d6e4b86202212091925177325531S9LsPBdZ.png.webp",
+        month: "41 000 uzs ",
+        kond: "500 000 uzs",
+        price: "369 000 uzs",
+        feedback: "9 Comments",
+    },
+    {
+        id: 20,
+        brand: "Xiaomi Model: Band 7",
+        name: "Xiaomi Mi Band 7 black smart braclet",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/16b123eca498a042548403296512d89d2022060622563776525AHQoS6TRgY.jpeg.webp",
+        month: "49 000 uzs ",
+        kond: "549 000 uzs",
+        price: "469 000 uzs",
+        feedback: "23 Comments",
+    },
+    {
+        id: 21,
+        brand: "Samsung Model: A13",
+        name: "Smartfon Samsung Galaxy A13 4/64GB Black",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/b6d767d2f8ed5d21a44b0e5886680cb92022041115555879069EWhxUjUrtw.jpg.webp",
+        kond: "2 240 000 uzs",
+        month: "240 000 uzs ",
+        price: "2 049 000 uzs",
+        feedback: "26 Comments",
+    },
+    {
+        id: 22,
+        brand: "Huawei Model: Huawei Band 7",
+        name: "HUAWEI Band 7 (Wilderness Green) smart-bracelet (promo)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/1700002963a49da13542e0726b7bb75820220710160646233504A8pDIKjee.png.webp",
+        month: "62 000 uzs ",
+
+        // 𝙄𝙯𝙯𝙖𝙩𝙞𝙡𝙡𝙤 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡, [03.06.2023 14:04]
+        kond: "689 000 uzs",
+        price: "589 000 uzs",
+        feedback: "2 Comments",
+    },
+    {
+        id: 23,
+        brand: "Xiaomi Model:EJ061LS",
+        name: "wireless quloqchin Xioami Mi True Wireless Earbuds Basic 2 Black",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/5c22042f2faaf7e0f8f51ea9dce7d7cb2023012318340186814U8kV04Y6WY.jpg.webp",
+        month: "20 000 uzs ",
+        kond: "289 000 uzs",
+        price: "189 000 uzs",
+        feedback: "0 Comments",
+    },
+    {
+        id: 24,
+        brand: "Huawei Model: Huawei Band 7",
+        name: "HUAWEI Band 7 (Pink) smart-bracelet (promo)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/ef0d3930a7b6c95bd2b32ed45989c61f2022071016160419574lZa5deGjiB.png.webp",
+        price: "589 000 uzs",
+        kond: "650 000 uzs",
+        month: "60 000 uzs ",
+        feedback: "5 Comments",
+    },
+    {
+        id: 25,
+        brand: "DT NO.1 Model:DT8 Ultra",
+        name: "Smart Watch DT NO.1 8 Ultra Orange",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/30ef30b64204a3088a26bc2e6ecf76022022102817184952990eJ96pAZz8m.png.webp",
+        month: "37 000 uzs ",
+        kond: "448 000 uzs",
+        price: "349 000 uzs",
+        feedback: "10 Comments",
+    },
+    {
+        id: 26,
+        brand: "Samsung Model: Galaxy Watch 4",
+        name: "Samsung Galaxy Watch 4 Classic (46 mm) Black smart-Watch",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/f0d1aa1fda7c8b60a763cffe14df51c32021090620131031108aE8h0DnNoj.jpg.webp",
+        kond: "2 599 000 uzs",
+        month: "280 000 uzs ",
+        price: "2 339 000 uzs",
+        feedback: "6 Comments",
+    },
+    {
+        id: 27,
+        brand: "Xiaomi Model: Bip 3 Pro",
+        name: "Xiaomi Amazfit Bip 3 Pro Pink smart-Watch",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/b2eeb7362ef83deff5c7813a67e14f0a2022102414574359527NuYONNVkjP.png.webp",
+        kond: "700 000 uzs",
+        month: "63 000 uzs ",
+        price: "599 000 uzs",
+        feedback: "3 Comments",
+    },
+    {
+        id: 28,
+        brand: "Yandex Model: Yandex Station Mini 2",
+        name: "Smart Speaker mini 2 black,Gray (Plus Smart Watch)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd320221112160506710615lcOGFscPs.jpg.webp",
+        kond: "1 500 000 uzs",
+        month: "157 000 uzs ",
+        price: "1 419 000 uzs",
+        feedback: "0 Comments",
+    },
+    {
+        id: 29,
+        brand: "Samsung Model: SM-T220",
+        name: "Samsung Galaxy Tab A7 Lite 4G 3/32GB Gray tablet",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/0a1a6fcc059030a66297691ea5de9c702022032911010439964cKAZJ6dPTn.jpg.webp",
+        month: "200 000 uzs ",
+        kond: "2 089 000 uzs",
+        price: "1 919 000 uzs",
+        feedback: "7 Comments",
+    },
+    {
+        id: 30,
+        name: "Charlz Uilan: Yalang'och iqtisodiyot. Murakkab sohaning sodda qiyofasi (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/b925d9864baa40cd9afbbd0c093f275b2023011814473714460kkL4TvA8K0.jpg.webp",
+        price: "69 000 uzs",
+        kond: "80 000 uzs",
+        month: "8000 uzs ",
+        feedback: "27 Comment(s)",
+    },
+    {
+        id: 31,
+        name: "Devid Bax, Jon Devid Mann: Latte omili. Moliyaviy mustaqillik va erkin hayot sari (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/main_image/desktop//63dc930badb19.jpg.webp",
+        kond: "42 000 uzs",
+        month: "5000 uzs ",
+        price: "39 000 uzs",
+        feedback: "41 Comment(s)",
+    },
+    {
+        id: 32,
+        name: "Ato Hamdam, Leonid Chigrin: Yapon zobiti. Yutaro Todaning asirlikda boshdan kechirganlari (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/3240457561e8153779adc521e1e7ff6c20230504161141745118rtzw5LJgs.jpg.webp",
+        kond: "65 000 uzs",
+        month: "6000 uzs ",
+        price: "49 000 uzs",
+        feedback: "1 Comment(s)",
+    },
+    {
+        id: 33,
+        name: "Piter Til, Bleyk Masters: Noldan birga. Startaplar haqida qaydlar yoxud kelajakni qanday qurish mumkin (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/f29df90279c8ef108ea7086cb3e8e40b2023022111283731107eQIca6OIad.jpg.webp ",
+        kond: "100 000 uzs",
+        month: "10 000 uzs ",
+        price: "89 000 uzs",
+        feedback: "15 Comment(s)",
+    },
+    {
+
+        id: 34,
+        name: "Daron Ajemo'g'li, Jeyms A. Robinson: Mamlakatlar tanazzuli sabablari: qudrat, farovonlik va kambag'allik manbalari (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/b025068cd31516b576f63b748146cb8a2023032516572632389LAwejKsJsa.jpg.webp",
+        kond: "100 000 uzs",
+        month: "10 000 uzs ",
+        price: "89 000 uzs",
+        feedback: "104 Comments",
+    },
+    {
+        id: 35,
+        name: "Uolter Ayzekson: Kod Buzar (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/7b4d1fe1a7617f50fb003c3c0f1c5a342023050311570795793PgdRFdBz2H.jpg.webp",
+        month: "10 000 uzs ",
+        kond: "100 000 uzs",
+        price: "89 000 uzs",
+        feedback: "6 Comment(s)",
+    },
+    {
+        id: 36,
+        name: "Piter Hopkirk: Katta Gaming. Ikki imperiya to'qnashuvi (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/fc452d063a72e0824cacf90a32c3e3582022101718250210925lKUsokqUPj.jpg.webp",
+        kond: "80 000 uzs",
+        month: "8000 uzs ",
+        price: "69 000 uzs",
+        feedback: " 66 Comments",
+    },
+    {
+        id: 37,
+        name: "Jeyms Klir: Atom odatlar (Uzbek translation)",
+        image:
+            "https://assets.asaxiy.uz/product/items/desktop/be1bc7997695495f756312886f5661102022042721444072504yCTRpe6uKr.jpg.webp",
+        kond: "40 000 uzs",
+        month: "5000 uzs ",
+        price: "39 000 uzs",
+        feedback: " 151 Comments",
+    },
+    // {
+    //     id: 38,
+    //     name: "Jorj Oruell: Molxona(Uzbek translation) (oldindan buyurtma)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/2e2c080d5490760af59d0baf5acbb84e2022042720450413643XcaqBd9OB1.jpg.webp",
+    //     month: "4000 uzs ",
+    //     kond: "33 000 uzs",
+    //     price: "29 000 uzs",
+    //     feedback: "77 Comment(s)",
+    // },
+    // {
+    //     id: 39,
+    //     name: "Hans Rosling: Factfulness (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/5463b514e21fbd3fec3772fba142a46e2022071111274681263C4RoK21K6h.jpg.webp",
+    //     month: "6000 uzs ",
+    //     kond: "50 000 uzs",
+    //     price: "49 000 uzs",
+    //     feedback: "66 Comment(s)",
+    // },
+    // {
+    //     id: 40,
+    //     name: "Kel Nyuport: Diqqat: Chalg'ituvchi dunyoda muvaffaqiyat sirlari (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/621fbd17da27241c58015eabe4164a522022042721305642246eQJCATLbnw.jpg.webp",
+    //     kond: "50 000 uzs",
+    //     month: "5000 uzs ",
+    //     price: "39 000 uzs",
+    //     feedback: "198 Comment(s)",
+    // },
+    // {
+    //     id: 41,
+    //     name: "Larisa Burakova: Gruziya muvaffaqiyatga qanday erishdi (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/0d27688c61c5a172e8e45956cd70cba220220813100021992985vBGuEhhZ8.jpg.webp",
+    //     kond: "70 000 uzs",
+    //     month: "7000 uzs ",
+    //     price: "49 000 uzs",
+    //     feedback: "67 Comment(s)",
+    // },
+    // {
+    //     id: 42,
+    //     name: "Klaus Shvab: To'rtinchi sanoat inqilobi (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/727f877933ff5527b688683434c1150a20220915162005524338048MzTgAU.jpg.webp",
+    //     kond: "62 000 uzs",
+    //     month: "6400 uzs ",
+    //     price: "59 000 uzs",
+    //     feedback: "27 Comment(s)",
+    // },
+    // {
+    //     id: 43,
+    //     name: "Teodor Drayzer: Sarmoyador (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/19055b3a7336446fb2c19fcbb42e9b742022011420025832702hD9NFIYYp3.jpg.webp",
+    //     kond: "71 000 uzs",
+    //     month: "6400 uzs ",
+    //     price: "59 000 uzs",
+    //     feedback: "59 Comment(s)",
+    // },
+    // {
+    //     id: 44,
+    //     name: "Rey Bredberi: Farengeyt bo'yicha 451º (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/c023910779c33792a47797c4ed36b6e82022050213345984827X7SPqi26P1.jpg.webp",
+    //     month: "5400 uzs ",
+    //     price: "49 000 uzs",
+    //     feedback: "67 Comment(s)",
+    //     kond: "59 000 uzs",
+    // },
+    // {
+    //     id: 45,
+    //     name: "Paulo Koelo: Alif (Uzbek translation)",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/818de4d2ec21cfcb149ced7a5bed25ab2022042721370919249Io0G7IrzGp.jpg.webp",
+    //     month: "5400 uzs ",
+    //     price: "49 000 uzs",
+    //     feedback: "23 Comment(s)",
+    //     kond: "59 000 uzs",
+    // },
+    // {
+    //     id: 46,
+    //     name: "Nissan GT R50 red toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/a8baa56554f96369ab93e4f3bb068c222023052615151566177k9tb5HsaDq.jpg",
+    //     price: "299 000 uzs",
+    //     kond: "350 000 uzs",
+
+    //     month: "25 000 uzs",
+    //     feedback: "10 Comments",
+    // },
+    // {
+    //     id: 47,
+    //     name: "BMW X7 black toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/1385974ed5904a438616ff7bdb3f74392023052614180123446PBG2BiMmeG.jpg",
+    //     kond: "250 000 uzs",
+    //     month: "18 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "4 Comments",
+    // },
+    // {
+    //     id: 48,
+    //     name: "Rolls Royce Cullinan red toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/013d407166ec4fa56eb1e1f8cbe183b92023052613583712592SluL0BXIWq.jpg",
+    //     kond: "250 000 uzs",
+    //     month: "17 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "7 Comments",
+    // },
+    // {
+    //     id: 49,
+    //     name: "Honda Civic black toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/02522a2b2726fb0a03bb19f2d8d9524d2023052613050918466mfz9aT28oq.jpg ",
+    //     kond: "250 000 uzs",
+    //     month: "18 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "2 Comments",
+    // },
+    // {
+    //     id: 50,
+    //     name: "Honda Civic red toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/65ded5353c5ee48d0b7d48c591b8f4302023052612562668096AGdaihgLZI.jpg",
+    //     kond: "270 000 uzs",
+    //     month: "20 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "11 Comments",
+    // },
+    // {
+    //     id: 51,
+    //     name: "Wiwu Alpha Vertical Layer '14.2' black noutbuk sumkasi",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/87ec2f451208df97228105657edb717f2023052612363316463prP97fOU5x.jpg",
+    //     kond: "375 000 uzs",
+    //     month: "25 000 uzs",
+    //     price: "299 000 uzs",
+    //     feedback: "23 Comments",
+    // },
+    // {
+    //     id: 52,
+    //     name: "BMW M4 purple toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/9b8619251a19057cff70779273e95aa62023052612001473526MwsFlYZsdY.jpg",
+    //     month: "22 000 uzs",
+    //     kond: "250 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "10 Comments",
+    // },
+    // {
+    //     id: 53,
+    //     name: "Wiwu Alpha Slim Sleeve '13.3' black noutbuk sumkasi",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/d88518acbcc3d08d1f18da62f9bb26ec2023052611504112022r3U5b6i2Da.jpg",
+    //     kond: "355 000 uzs",
+    //     month: "32 000 uzs",
+    //     price: "299 000 uzs",
+    //     feedback: "7 Comments",
+    // },
+    // {
+    //     id: 54,
+    //     name: "Honda Civic blue toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/069059b7ef840f0c74a814ec9237b6ec2023052611405043560fUlpOfqnWP.jpg",
+    //     kond: "270 000 uzs",
+    //     month: "28 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "5 Comments",
+    // },
+    // {
+    //     id: 55,
+    //     name: "Aston Martin green toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/0a09c8844ba8f0936c20bd791130d6b62023052615282857502SopvHDg8RI.jpg",
+    //     kond: "389 000 uzs",
+    //     month: "29 000 uzs",
+    //     price: "299 000 uzs",
+    //     feedback: "2 Comments",
+    // },
+    // {
+    //     id: 56,
+    //     name: "McLaren 720s purple toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/202cb962ac59075b964b07152d234b7020230526112001416985aLxu3E1UT.jpg",
+    //     kond: "208 000 uzs",
+    //     month: "19 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "1 Comments",
+    // },
+    // {
+    //     id: 57,
+    //     name: "Brabus 700 red toy car model",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/da4fb5c6e93e74d3df8527599fa626422023052610575919082ItH56gkpcW.jpg",
+    //     kond: "220 000 uzs",
+    //     month: "18 000 uzs",
+    //     price: "199 000 uzs",
+    //     feedback: "0 Comments",
+    // },
+    // {
+    //     id: 58,
+    //     name: "HW9 Pro Max black smart Watch",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/8d7d8ee069cb0cbbf816bbb65d56947e2023053017571312544xmsn7Ysarq.jpg",
+    //     month: "44 300 uzs",
+    //     kond: "410 000 uzs",
+    //     price: "379 000 uzs",
+    //     feedback: "13 Comments",
+    // },
+    // {
+    //     id: 59,
+    //     name: "Computer garniture A4Tech HU-30 Black",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2023053014263118162anx6ZphTei.jpg ",
+
+    //     month: "26 200 uzs",
+    //     kond: "290 000 uzs",
+    //     price: "229 000 uzs",
+    //     feedback: "4 Comments",
+    // },
+    // {
+    //     id: 60,
+    //     name: "Gaming keyboard A4Tech Bloody PUNK",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b20230530163628767613we1q7hnnR.jpg",
+    //     month: "75 700 uzs",
+    //     kond: "750 000 uzs",
+    //     price: "649 000 uzs",
+    //     feedback: "12 Comments",
+    // },
+    // {
+    //     id: 61,
+    //     name: "Apple iPod, iPhone, iPad for Apple  USB Cable white Dubai 1m",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/b9228e0962a78b84f3d5d92f4faa000b2023053014431313290OuFRSmFwvQ.jpg.webp",
+    //     month: "13 700 uzs",
+    //     kond: "170 000 uzs",
+    //     price: "129 000 uzs",
+    //     feedback: "4 Comments",
+    // },
+    // {
+    //     id: 62,
+    //     brand: "Midea Model: Alba-12",
+    //     name: "Midea Alba Low Voltage Inverter 12 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/a10390358cde813f75ac203ed7b164ed2020070912130632748YMGMS6rNUL.jpg.webp",
+    //     price: "5 399 000 uzs",
+    //     month: "620 000 uzs",
+    //     kond: "6 000 000 uzs",
+    //     feedback: "4 Comments",
+    // },
+    // {
+    //     id: 63,
+    //     brand: "Artel Model: SIDAW12BE",
+    //     name: "Artel Everest 12 Inverter Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2022032910450141556KUATOnpu1G.jpg.webp",
+    //     month: "619 000 uzs",
+    //     kond: "5 400 000 uzs",
+    //     price: "4 699 000 uzs",
+    //     feedback: "5 Comments",
+    // },
+    // {
+    //     id: 64,
+    //     brand: "Midea Model: Cold",
+    //     name: "Midea Cold Low voltage 12 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd32022062410572962138Y6GrIZ0lES.jpg.webp",
+    //     kond: "5 449 000 uzs",
+    //     month: "500 000 uzs",
+    //     price: "5 049 000 uzs",
+    //     feedback: "7 Comments",
+    // },
+    // {
+    //     id: 65,
+    //     brand: "Ziffler Model: Model 12 Interner",
+    //     name: "Ziffler Monaco Inverter 12 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/81574590f1d995b305685902928f84e02020092510015141932cFy1pIJtnT.jpg.webp",
+    //     month: "500 000 uzs",
+    //     kond: "5 000 000 uzs",
+    //     price: "4 299 000 uzs",
+    //     feedback: "14 Comments",
+    // },
+    // {
+    //     id: 66,
+    //     brand: "Premier Model: 50PRM750USV",
+    //     name: "Ziffler Ref Inverter 2 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/main_image/desktop//5f6d79b89ea02.jpg.webp",
+    //     kond: "5 000 000 uzs",
+    //     month: "470 000 uzs",
+    //     price: "4 299 000 uzs",
+    //     feedback: "11 Comments",
+    // },
+    // {
+    //     id: 67,
+    //     brand: "Artel Model: Everest",
+    //     name: "Artel Everest 12  Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd32021111511360756982oKqdjApftZ.png.webp",
+    //     kond: "4 600 000 uzs",
+    //     month: "450 000 uzs",
+    //     price: "4 199 000 uzs",
+    //     feedback: "0 Comments",
+    // },
+    // {
+    //     id: 68,
+    //     brand: "Sitronic Model: Sitronic Vertu",
+    //     name: "Sitronic VERTU Wi-Fi Inverter 12 Gold Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/1c5330dac7d57feb13f64811b3cb8f9020220405092016293668gONaYKCja.jpg.webp",
+    //     kond: "6 300 000 uzs",
+    //     month: "550 000 uzs",
+    //     price: "4 999 000 uzs",
+    //     feedback: "10 Comments",
+    // },
+    // {
+    //     id: 69,
+    //     brand:
+    //         "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd32022041313532426468rG7hhiB5pT.jpg.webp",
+    //     name: "Sitronic Solar  Inverter 24 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd32022041313532426468rG7hhiB5pT.jpg.webp",
+    //     month: "920 000 uzs",
+    //     kond: "9 400 000 uzs",
+    //     price: "8 899 000 uzs",
+    //     feedback: "20 Comments",
+    // },
+    // {
+    //     id: 70,
+    //     brand: "Rosso Model: 50RU92",
+    //     name: "Sitronic Mars  Inverter 09 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/6512bd43d9caa6e02c990b0a82652dca2022041314235612815yshivnmGQr.jpg.webp",
+    //     month: "590 000 uzs",
+    //     kond: "6 000 000 uzs",
+    //     price: "5 499 000 uzs",
+
+    //     feedback: "0 Comments",
+    // },
+    // {
+    //     id: 71,
+    //     brand: "Samsung Model: UE49N5500AU",
+    //     name: "Sitronic Lider 12 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/96a3be3cf272e017046d1b2674a52bd32022040508564870671jALnqlPaqd.jpg.webp",
+    //     month: "490 000 uzs",
+    //     kond: "5 100 000 uzs",
+    //     price: "4 310 400 uzs",
+    //     feedback: "1 Comments",
+    // },
+    // {
+    //     id: 72,
+    //     brand: "Premier Model: 50PRM800USV",
+    //     name: "Midea Vertu Plus 3D Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/main_image/desktop/5e15bc319affc.jpg.webp",
+    //     month: "900 000 uzs",
+    //     kond: "9 000 000 uzs",
+    //     price: "8 599 000 uzs",
+    //     feedback: "9 Comments",
+    // },
+    // {
+    //     id: 73,
+    //     brand: "Artel Model: A32KH5000",
+    //     name: "Artel Shahrisabz 09 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/main_image/desktop//627a021f7287e.png.webp",
+    //     month: "450 000 uzs",
+    //     kond: "4 700 000 uzs",
+    //     price: "4 348 800 uzs",
+    //     feedback: "0 Comments",
+    // },
+    // {
+    //     id: 74,
+    //     brand: "Artel Model: UA32H4101",
+    //     name: "Gree Fair 18 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/5e15c08dd6c42.jpg.webp",
+    //     month: "750 000 uzs",
+    //     kond: "8 900 000 uzs",
+    //     price: "7 389 000 uzs",
+    //     feedback: "2 Comments",
+    // },
+    // {
+    //     id: 75,
+    //     brand: "Sony Model: KD-65XE9305",
+    //     name: "Midea All Easy Pro inverter 18 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/a2ef406e2c2351e0b9e80029c909242d2022062410483338712Vgh8YNzGJ5.jpg.webp",
+    //     kond: "11 039 000 uzs",
+    //     month: "1 000 000 uzs",
+    //     price: "9 799 000 uzs",
+    //     feedback: "6 Comments",
+    // },
+    // {
+    //     id: 76,
+    //     brand: "Samsung Model: UE32T4500AU",
+    //     name: "Midea All Easy Pro inverter 24 Air Conditioner",
+    //     image:
+    //         "https://assets.asaxiy.uz/product/items/desktop/a2ef406e2c2351e0b9e80029c909242d2022062410483338712Vgh8YNzGJ5.jpg.webp",
+    //     kond: "11 700 000 uzs",
+    //     month: "1 200 000 uzs",
+    //     price: "10 200 000 uzs",
+    //     feedback: "2 Comments",
+    // },
+];
