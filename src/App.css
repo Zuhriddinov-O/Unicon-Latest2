@@ -1,14 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin    : 0;
+  padding   : 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: flex;
+  font-family    : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display        : flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction : column;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -21,10 +22,14 @@ ul {
 
 a {
   text-decoration: none;
-  z-index: 3;
-  font-size: 25px;
+  z-index        : 3;
+  font-size      : 25px;
+  color          : white;
 }
 
-/* a :hover {
-  color: #FFFFFF;
-} */
+
+.scrolled {
+  position  : fixed;
+  background: rgb(223, 234, 223) !important;
+  transition: 0.5s;
+}

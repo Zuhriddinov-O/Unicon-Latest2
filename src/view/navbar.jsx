@@ -8,21 +8,24 @@ import bookimgcat from "../imgforcat1/bookimgcat.jpg"
 import imgtvcat1 from "../imgforcat1/imgtvcat1.jpg"
 import imgwatchcat2 from "../imgforcat1/imgwatchcat2.jpg"
 import aircimgcat3 from "../imgforcat1/aircimgcat3.jpg"
+import { useState, useEffect } from "react";
+
 // import { useEffect, useState, } from 'react'
 // import { allData } from "../all/all";
 
 
 const Navbar = (props) => {
-    // const [count, setCount] = useState(0)
-    // const [word, setWord] = useState("");
-    // const [search, setSearch] = useState(false);
+    const [scroll, setScroll] = useState(0)
 
-    // useEffect(() => {
-    //     if (!word == "") {
-    //         setSearch(true)
-    //     }
-    // }, [word])
-    // console.log(search);
+    useEffect(() => {
+        const onScroll = () => {
+            setScroll(window.pageYOffset)
+        }
+        window.addEventListener("scroll", onScroll)
+        return () => window.removeEventListener("scroll", onScroll)
+    }, [])
+
+    console.log(scroll);;
     return (
         <>
             <React.Fragment>
@@ -35,7 +38,7 @@ const Navbar = (props) => {
                         <Link to={"/next"} style={{ margin: "0px 0px 0px 50px" }}><p className="next">Next</p></Link>
                     </div>
                     <div className="containerbtn">
-                        <div className="btn">
+                        <div className={scroll > 100 ? "btn scrolled" : "btn"}>
                             <div className="paragraph">
                                 <p>Source Category:</p>
                             </div>
@@ -61,23 +64,6 @@ const Navbar = (props) => {
                     </div>
 
                 </div>
-                {/* <div className="section_search-container">
-                    {allData.map((item) => {
-                        if (useThemeProps.search === false) {
-                            return null;
-                        } else if (
-                            item.name
-                                .toLocaleCase()
-                                .include(props.word.toLocaleCase())
-
-                        ) {
-                            return (
-                                <div className="div">
-
-                                </div>
-                            )
-                        }
-                    })}</div> */}
             </React.Fragment >
         </>
     );

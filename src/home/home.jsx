@@ -115,7 +115,8 @@ const Home = (props) => {
             }
           })}
         </div>
-      </React.Fragment>  </>
+      </React.Fragment>  
+      </>
   );
 
 }

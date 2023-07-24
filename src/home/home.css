@@ -42,14 +42,12 @@
 
 .commentimg {
     display: flex;
-    width: 100px;
     height: 25px;
 }
 
 .commentimg:hover {
     display: flex;
     color: green;
-    width: 100px;
     height: 25px;
 }
 
