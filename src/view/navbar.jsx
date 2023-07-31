@@ -32,7 +32,7 @@ const Navbar = (props) => {
                 <div className="link">
                     <div className="Uicon"><img src={UCicon} alt="" /><p>UniCon</p></div>
                     <div className="inp"><input className="input" type="search" placeholder="Search..." onChange={(e) => props.setWord(e.target.value)} />
-                        <button><img src={Sicon} alt="" /></button></div>
+                        <button className="searchbtn"><img src={Sicon} alt="" /></button></div>
                     <div className="pages">
                         <Link to={"/"}><p className="home">Home</p></Link>
                         <Link to={"/next"} style={{ margin: "0px 0px 0px 50px" }}><p className="next">Next</p></Link>

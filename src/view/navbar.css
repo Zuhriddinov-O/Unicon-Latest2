@@ -96,17 +96,22 @@ a {
     margin-right : 5px;
     width        : 200px;
     height       : 30px;
-    /* border    : 2px orange; */
+    border-right : none;
+    background   : rgb(245, 241, 241);
 }
 
 .inp button {
     margin-left  : -5px;
     border-radius: 0px 5px 5px 0px;
     width        : 15%;
-    height       : 36px;
+    height       : 36.8px;
     border-left  : none;
-    border       : 2px orange;
 
+
+}
+
+.input button:active {
+    background-color: rgb(127, 232, 127);
 }
 
 .inp img {
@@ -127,7 +132,7 @@ a {
 }
 
 .btn {
-    position: absolute;
+    position        : absolute;
     font-size       : 100%;
     background-color: #ffffff;
     padding         : 5px;
